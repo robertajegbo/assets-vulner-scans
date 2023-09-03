@@ -1,2 +1,2 @@
-# assets-vulner-scans
+# vulner-scan-PRTG
 The goal was to develop sensors to monitor for assets' vulnerabilities in PRTG. To begin, I had to identify the precise Operating System build on the company hosts. I then used the OS versions to search for known vulnerabilities associated with them; on Mitre's CVE. I used the respective CVE IDs to find more information on the NIST NVD, including their characteristics, CVSS Base Score, and recommended mitigations (if applicable). Following the research, I set up various sensors to monitor for indicators of compromise using PRTG.
